@@ -130,9 +130,9 @@ class _police_homeState extends State<police_home> {
                                       snapshot.data[index]['long']);
                                   MapUtils.openMap(maplat, maplong);
                                 },
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceAround,
+                                child: Column(
+                                  // mainAxisAlignment:
+                                  //     MainAxisAlignment.spaceAround,
                                   children: [
                                     Text(
                                       '${snapshot.data[index]['locality']}'

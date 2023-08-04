@@ -6,6 +6,7 @@ import 'package:corider/Group%20trip/gt1.dart';
 import 'package:corider/Group%20trip/gt4.dart';
 import 'package:corider/Home/dialog.dart';
 import 'package:corider/Home/h4.dart';
+import 'package:corider/Login/first_page.dart';
 import 'package:corider/Login/login.dart';
 import 'package:corider/Police%20module/police_home.dart';
 import 'package:corider/Rental%20cars/r1.dart';
@@ -310,7 +311,7 @@ class _h1State extends State<h1> {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => login()));
+                                          builder: (context) => first_page()));
                                 },
                                 child: Text('Yes')),
                           ],
