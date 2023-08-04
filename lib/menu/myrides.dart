@@ -148,7 +148,7 @@ class _myridesState extends State<myrides> {
                             ),
                             trailing: IconButton(
                               onPressed: () {
-                                ride_id = int.parse(data[index]['ride']);
+                                ride_id = int.parse(data[index]['pool_id']);
                                 setState(() {
                                   deletedata();
                                 });

@@ -33,8 +33,9 @@ class _loginState extends State<login> {
       'password': _passwordController.text
     };
     print(data);
-    var response =
-        await http.post(Uri.parse("${con.url}login/login.php"), body: data);
+    var response = await http.post(
+        Uri.parse("http://softroniics.com/GO-SHARE/API/login/login.php"),
+        body: data);
     print(response.body);
 
     try {

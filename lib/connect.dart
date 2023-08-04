@@ -5,7 +5,7 @@
 
 // }
 class con {
-  static const url = "http://192.168.0.107/New/GO-SHARE-Api/";
-  static const url1 = "http://192.168.0.107/New/GO-SHARE-Admin/";
-  static const uploads = "http://192.168.0.107/New/GO-SHARE-Admin/uploads/";
+  static const url = "http://softroniics.com/GO-SHARE/API/";
+  static const url1 = "http://softroniics.com/GO-SHARE/";
+  static const uploads = "http://softroniics.com/GO-SHARE/uploads/";
 }

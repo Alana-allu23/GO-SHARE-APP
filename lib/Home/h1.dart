@@ -188,16 +188,16 @@ class _h1State extends State<h1> {
                                   }));
                     }),
               ),
-              InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => myrides()));
-                },
-                child: ListTile(
-                  leading: Icon(Icons.mode_of_travel),
-                  title: Text('My Rides '),
-                ),
-              ),
+              // InkWell(
+              //   onTap: () {
+              //     Navigator.push(context,
+              //         MaterialPageRoute(builder: (context) => myrides()));
+              //   },
+              //   child: ListTile(
+              //     leading: Icon(Icons.mode_of_travel),
+              //     title: Text('My Rides '),
+              //   ),
+              // ),
               Divider(
                 thickness: 2,
               ),
@@ -273,7 +273,7 @@ class _h1State extends State<h1> {
                 },
                 child: ListTile(
                   leading: Icon(Icons.local_offer_outlined),
-                  title: Text('Offer ride'),
+                  title: Text('My Rides'),
                 ),
               ),
               Divider(
